@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --osu-orange: #D73F09;
+  --osu-black: #000000;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+} 
