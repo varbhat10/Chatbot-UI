@@ -10,9 +10,9 @@ Chatbot interface for Oregon State University's engineering website domains. Thi
 - Loading indicators
 - Auto-scrolling to the latest message
 
-## Getting Started
+## To Get Started
 
-### Prerequisites
+### Prerequisites Needed
 
 - Node.js (version 16 or higher)
 - npm or yarn
