@@ -1,6 +1,6 @@
 # OSU Engineering Chatbot UI
 
-A clean and modern chatbot interface for Oregon State University's engineering website domains. This interface allows users to ask questions about OSU's engineering programs and get AI-powered responses.
+Chatbot interface for Oregon State University's engineering website domains. This interface allows users to ask questions about OSU's engineering programs and get AI-powered responses.
 
 ## Features
 
@@ -43,10 +43,10 @@ yarn dev
 
 ## Integrating with Backend API
 
-The current implementation uses mock responses for demonstration. To connect with a real AI backend:
+This implementation uses mock responses for demonstration. To connect with a real backend:
 
-1. Modify the `handleSubmit` function in `src/components/Chatbot.tsx`
-2. Replace the setTimeout mock with a fetch call to your API endpoint
+1. Make sure to modify the `handleSubmit` function in `src/components/Chatbot.tsx`
+2.  We should replace the setTimeout mock with a fetch call to your API endpoint
 
 Example:
 ```typescript
